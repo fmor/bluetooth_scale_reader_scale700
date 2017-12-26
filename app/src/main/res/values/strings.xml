@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BTScale</string>
+    <string name="help_init">
+        <![CDATA[
+        <ul>
+            <li>Préparer le poids de démo (ex 80kg)</li>
+            <li>Retourner la balance et activer le mode init en appuyant sur le bouton</li>
+            <li>Appuyer sur le bouton "Init profil 1" ( android )</li>
+            <li>La balance affiche <b>[]</b></b>
+            <li>La balance affiche P01</li>
+            <li>Mettez le poids de démo</li>
+            <li>Attendre la fin du cycle ( <i>beep</i> )</li>
+            <li>Appuyer sur le bouton "Lire poids" ( android )</li>
+            <li><b>Le poids s affiche</b></li>
+
+            <li>Préparer un poids différent de celui de démo (ex 10 kg)</li>
+            <li>Retourner la balance et activer le mode init en appuyant sur le bouton</li>
+            <li>Appuyer sur le bouton "Init profil 2" ( android )</li>
+            <li>La balance affiche P02</li>
+            <li>Mettez le poids différent</li>
+            <li>Attendre la fin du cycle ( <i>beep</i> )</li>
+            <li>Appuyer sur le bouton "Lire poids" ( android )</li>
+            <li><b>Le poids s affiche</b></li>
+            <li>Répéter l opération pour les autres profils  2..8</li>
+            <li>L initialisation des autres profils n est à faire qu une seule foi</li>
+
+        </ul>
+        ]]>
+    </string>
+
+    <string name="help_read">
+        <![CDATA[
+        <ul>
+            <li>Mettre le poids sur la balance</li>
+            <li>Attendre la fin de l analyse</li>
+            <li>La balance a trouvé le profil P01, l icone Bluetooth s affiche</li>
+            <li>Appuyer le bouton <b>Lire poids</n></li>
+        </ul>
+        ]]>
+    </string>
+
+</resources>
